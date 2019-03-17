@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LR1_game", "LR1_game\LR1_game.pyproj", "{13469F8E-EEC4-4984-BE01-8161DC0E691D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13469F8E-EEC4-4984-BE01-8161DC0E691D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13469F8E-EEC4-4984-BE01-8161DC0E691D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F9D7C33-A14B-4BA3-9202-B6E2CBCFF225}
+	EndGlobalSection
+EndGlobal

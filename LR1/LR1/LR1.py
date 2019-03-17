@@ -1,0 +1,16 @@
+print("ВВедите значения a,b,c,d,k")
+print("Введите a")
+a = float(input())
+print("Введите b")
+b=float(input())
+print("Введите c")
+c=float(input())
+print("Введите d")
+d=float(input())
+print("Введите k")
+k=float(input())
+if b==0 or a==0:
+    print("Ошибка, неверно введены данные")
+else:
+    r=abs(((a**2-b**3-c**3 * a**2)*(b-c+c*(k-d/b**3))-(k/b-k/a)*c)**2-20000)
+    print("r=", r)
