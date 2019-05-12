@@ -64,23 +64,23 @@ def fourthf():
         answ=int(input())
         if answ==1:
             print("Создаю новый файл....")
-            f1 = open('newfolder/productsnew.txt', 'tw', encoding='utf-8')
+            f1 = open('newfolder/productsnew.txt', 'tw', encoding='ansi')
             with open('newfolder/productsnew.txt','w') as outfile:
                 for i in range(0,len(s)):
-                    f1.write("\n")
                     for j in range(0,len(s)):
                         f1.write(str(s[i][j]))
-                        f1.write(' ')
+                        f1.write(';')
+                    f1.write("\n")                    
             f1.close()
         else:
             print("Записываю в старый файл....")
-            f2 = open('newfolder/changed.txt', 'tw', encoding='utf-8')
-            with open('newfolder/changed.txt','w') as outfile:
+            f = open('newfolder/products.txt', 'w', encoding='ansi')
+            with open('newfolder/products.txt','a') as outfile:
                 for i in range(0,len(s)):
-                    f2.write("\n")
                     for j in range(0,len(s)):
-                        f2.write(str(s[i][j]))
-                        f2.write(' ')
+                        f.write(str(s[i][j]))
+                        f.write(';')
+                    f.write("\n")
             f.close()
 
 
@@ -96,7 +96,6 @@ for i in range(0, len(s)):
     if int(s[i][0])>max:
         max=int(s[i][0])
 while answ==1:
-    
     n=menu() 
     if n!=0: 
         if n==1:#1я функция
